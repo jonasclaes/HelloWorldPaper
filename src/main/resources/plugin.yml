@@ -1,0 +1,11 @@
+main: be.jonasclaes.HelloWorldPaper.HelloWorldPaper
+name: HelloWorldPaper
+version: 0.1
+author: "Jonas Claes"
+description: A little hello world plugin.
+commands:
+  helloworld:
+    description: "Say hello world!"
+    usage: "Usage: /helloworld"
+    permission: helloworldpaper.helloworld
+    permission-message: "You don't have the helloworldpaper.helloworld permission."
